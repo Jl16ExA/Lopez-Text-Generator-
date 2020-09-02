@@ -7,7 +7,7 @@ import os
 
 st.title("""Lopez completa tu texto""")
 
-user_input = st.text_area("Escribe tu texto aqui", 'Daniel es Gay')
+user_input = st.text_area("Escribe tu texto aqui", '')
 
 if st.button('Click'):
     r = requests.post(
